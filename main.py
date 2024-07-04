@@ -7,9 +7,9 @@ from os import system, _exit
 
 class Follow_Bot:
     def __init__(self):
-        self.users = self.collect_tokens()
-        self.followed = 0
-        self.failed = 0
+        self.users = self.collect_tokens(Tyl7y)
+        self.followed = 1000
+        self.failed = 23
         self.target = ''
 
 
